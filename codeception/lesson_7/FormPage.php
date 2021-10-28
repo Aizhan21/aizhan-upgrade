@@ -17,7 +17,7 @@ class FormPage
     /**
      * URL страницы формы 
      */
-    public static $URL = '';
+    public static $URL = 'https://prostochizh.github.io/form/';
 
     /**
      * Локатор поля имени 
