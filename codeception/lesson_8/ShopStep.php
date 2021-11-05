@@ -4,10 +4,16 @@ namespace Step\Acceptance;
 use Page\Acceptance\MainPage;
 use Page\Acceptance\SignInPage;
 
+/**
+ * Класс добавления товаров в избранное
+ */
 class ShopStep extends \AcceptanceTester
 {
     public const PRODUCTS_NMB = 2;
 
+    /**
+     * Добавляет товары в избранное
+     */
     public function addProductToMyWishlist() {
         $I = $this;
 
