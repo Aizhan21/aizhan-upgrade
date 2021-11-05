@@ -6,7 +6,6 @@ use Helper\CustomFakerProvider;
 
 /**
  * Класс для проверки успешной отправки формы
- * @group test1
  */
 class SubmitFormCest
 {
